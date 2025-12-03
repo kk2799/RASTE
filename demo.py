@@ -3,8 +3,8 @@ import torch
 import torchaudio
 from pathlib import Path
 from typing import Union, Tuple
-from beat_this.preprocessing import LogMelSpect
-from beat_this.inference import split_piece
+from RASTE.preprocessing import LogMelSpect
+from RASTE.inference import split_piece
 from scipy import signal
 import warnings
 
